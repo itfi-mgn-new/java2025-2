@@ -52,8 +52,19 @@ public class LifeCycleTEst {
 		
 		LifeCycleTEst t = new LifeCycleTEst();
 		
+		LifeCycleTEst.staticPrint();
+		t.print();
+		
 	}
 
+	static void staticPrint() {
+		System.err.println("Static print!");
+	}
+	
+	void print() {
+		System.err.println("NON-Static print!");
+	}
+	
 	static {
 		System.err.println("ew858903");
 	}
