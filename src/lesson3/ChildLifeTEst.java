@@ -1,8 +1,8 @@
 package lesson3;
 
 public class ChildLifeTEst extends LifeCycleTEst {
-	static final int	x = 100;
-	static final double	y = 100 + Math.random();
+	public static final int	x = 100;
+	final double	y = 100 + Math.random();
 
 	static {
 		System.err.println("CHILD slkkdfjklkjfgklj");
