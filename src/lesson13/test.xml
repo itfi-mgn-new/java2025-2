@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<persons>
+    <person age="21">
+        <family>Ivanoff</family>
+        <name>Ivan</name>
+    </person>
+    <person age="25">
+        <family>Petroff</family>
+        <name>Petr</name>
+    </person>
+    <person age="30">
+        <family>Sidoroff</family>
+        <name>Sidor</name>
+    </person>
+</persons>
