@@ -22,13 +22,10 @@ public class CalculatorTest {
 		
 		Assert.assertEquals(15, calc.add(new CalculatorImpl(5)).getValue(), 0.0001);
 		
-		
 		try {
 			calc.add(null);
 			Assert.fail("Mandatory exception was not detected (null 1-st argument)");
 		} catch (IllegalArgumentException exc) {
 		}
-		
 	}
-
 }
